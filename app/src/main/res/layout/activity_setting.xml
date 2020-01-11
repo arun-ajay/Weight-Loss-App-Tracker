@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0b0b0b"
+    tools:context=".SettingActivity">
+
+    <Button
+        android:id="@+id/buttonDeleteAll"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="44dp"
+        android:background="@android:color/holo_red_dark"
+        android:text="Delete All Logs"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@+id/buttonUpdateGoal"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/buttonUpdateGoal"
+        app:layout_constraintTop_toBottomOf="@+id/buttonUpdateGoal" />
+
+    <Button
+        android:id="@+id/buttonUpdateGoal"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="52dp"
+        android:background="#9c59cc"
+        android:text="Update Goal"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@+id/goalDateBox"
+        app:layout_constraintStart_toStartOf="@+id/goalDateBox"
+        app:layout_constraintTop_toBottomOf="@+id/goalWeightBox" />
+
+    <EditText
+        android:id="@+id/goalWeightBox"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="32dp"
+        android:background="@android:color/transparent"
+        android:digits="0123456789."
+        android:ems="10"
+        android:gravity="center_horizontal|center_vertical"
+        android:hint="Enter Goal Weight (lbs)"
+        android:inputType="numberDecimal"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/darker_gray"
+        app:layout_constraintEnd_toEndOf="@+id/goalDateBox"
+        app:layout_constraintStart_toStartOf="@+id/goalDateBox"
+        app:layout_constraintTop_toBottomOf="@+id/goalDateBox" />
+
+    <TextView
+        android:id="@+id/goalDateBox"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="32dp"
+        android:background="@android:color/transparent"
+        android:gravity="center_horizontal|center_vertical"
+        android:hint="Enter Goal Date"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/darker_gray"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
