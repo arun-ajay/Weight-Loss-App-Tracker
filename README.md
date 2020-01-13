@@ -1,5 +1,12 @@
 # Weight Loss App Tracker
 
+
+
+| Main Page  | Date Input |
+| ------------- | ------------- |
+| <img src = "Screenshots/Screenshot2 - Copy.png"> | <img src = "Screenshots/Screenshot1 - Copy.png"> |
+
+
 - Track user’s weight loss period
 - Display statistics regarding their overall trend
 - Allow users to set a goal weight and deadline
