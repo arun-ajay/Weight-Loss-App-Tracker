@@ -8,7 +8,7 @@
 - Give visual indicators if user is behind or following estimated weight loss pace/exercise routine. 
 
 
-### Data Storage
+## Data Storage
 
 - Data Save/Retrieval Method
   - SQLite Database
