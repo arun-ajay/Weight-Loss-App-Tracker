@@ -30,5 +30,5 @@ See also the list of [contributors](https://github.com/NYPL/NYPL-Tenable-Jira/gr
 
 
 ## License
-This project is licensed under the Apache License 2.0 - see the [LICENSE](https://github.com/NYPL/NYPL-Tenable-Jira/blob/master/LICENSE) file for details
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/arun-ajay/Weight-Loss-App-Tracker/blob/master/LICENSE) file for details
 
