@@ -28,7 +28,7 @@
         - Data is called on a row-by-row basis in SQL and stored into an arraylist of Strings or Floats for calculations or info to be passed back to MainActivity.java for chart plotting
 
 - Data Structures Used
-  - ArrayList<String>, ArrayList<Float>
+  - ArrayList\<String>, ArrayList\<Float>
 
 ## Authors
 - **Arun Ajay** - [@arun-ajay](https://github.com/arun-ajay)
